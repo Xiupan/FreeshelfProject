@@ -3,10 +3,10 @@
 During this project, you will build a Ruby on Rails application to collect an index of free programming books online. This application will, after three days, allow users to look at the index, add new books, edit books they added, and remove books.
 
 Day One:
-Allow anyone to create a new book entry
-Books have, at a minimum, a title, author, description, and URL
-Allow anyone to update or delete a book entry
-Allow anyone to view the list of books
+<!-- Allow anyone to create a new book entry -->
+<!-- Books have, at a minimum, a title, author, description, and URL -->
+<!-- Allow anyone to update or delete a book entry -->
+<!-- Allow anyone to view the list of books -->
 
 Day Two:
 Allow users to register and login
