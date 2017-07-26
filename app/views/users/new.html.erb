@@ -1,22 +1,22 @@
 <h1>Register a New User</h1>
 
-<%= form_for :user, url: users_path do |u| %>
-  <p>
-    <%= u.label :username %><br>
-    <%= u.text_field :username %>
-  </p>
+<%= form_for @user, url: register_path do |f| %>
+  <div class="">
+    <%= f.label :username %>
+    <%= f.text_field :username %>
+  </div>
 
-  <p>
-    <%= u.label :password %><br>
-    <%= u.text_field :password %>
-  </p>
+  <div class="">
+    <%= f.label :password %>
+    <%= f.password_field :password %>
+  </div>
 
-  <p>
-    <%= u.label :password_confirmation %><br>
-    <%= u.text_field :password_confirmation %>
-  </p>
+  <div class="">
+    <%= f.label :password_confirmation %>
+    <%= f.password_field :password_confirmation %>
+  </div>
 
-  <p>
-    <%= u.submit %>
-  </p>
+  <div class="">
+    <%= f.submit %> or <%= link_to 'Log In', sessions_new_path %>
+  </div>
 <% end %>

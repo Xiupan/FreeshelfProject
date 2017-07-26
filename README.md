@@ -9,8 +9,8 @@ Day One:
 *Allow anyone to view the list of books
 
 Day Two:
-Allow users to register and login
-Prevent users from creating, editing, or deleting book entries if they are not logged in
+*Allow users to register and login
+*Prevent users from creating, editing, or deleting book entries if they are not logged in
 
 Day Three:
 Associate each book entry with a user
