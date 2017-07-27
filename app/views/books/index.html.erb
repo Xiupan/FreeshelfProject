@@ -15,10 +15,14 @@
       <td><%= book.description %></td>
       <td><%= book.url %></td>
       <td><%= link_to 'Show this book', book_path(book) %></td>
+
+      <% if session[:user_id] == book.user_id %>
       <td><%= link_to 'Edit this book', edit_book_path(book) %></td>
       <td><%= link_to 'Delete this book', book_path(book),
               method: :delete,
               data: { confirm: 'Are you sure?' } %></td>
+      <% end %>
+      
     </tr>
   <% end %>
 </table>
