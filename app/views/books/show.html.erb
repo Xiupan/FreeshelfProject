@@ -1,6 +1,12 @@
 <h1>The new book you just added</h1>
 
 <p>
+  <strong>Added by:</strong>
+  <% addedBy = User.find_by(:id => @book.user_id)%>
+  <%= addedBy.username %> <!-- That actually worked! holy shit! :O!!! -->
+</p>
+
+<p>
   <strong>Title:</strong>
   <%= @book.title %>
 </p>
