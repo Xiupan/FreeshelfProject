@@ -14,8 +14,8 @@ Day Two:
 
 Day Three:
 *Associate each book entry with a user
-Prevent editing a book unless you are the book entry's creator
-Prevent deleting a book unless you are the book entry's creator
+*Prevent editing a book unless you are the book entry's creator
+*Prevent deleting a book unless you are the book entry's creator
 
 If you finish all of the above, consider some of the following:
 
