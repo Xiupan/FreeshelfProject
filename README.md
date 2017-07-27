@@ -13,7 +13,7 @@ Day Two:
 *Prevent users from creating, editing, or deleting book entries if they are not logged in
 
 Day Three:
-Associate each book entry with a user
+*Associate each book entry with a user
 Prevent editing a book unless you are the book entry's creator
 Prevent deleting a book unless you are the book entry's creator
 
